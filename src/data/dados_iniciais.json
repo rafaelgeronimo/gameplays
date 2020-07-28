@@ -1,0 +1,169 @@
+{
+  "categorias": [
+    {
+      "titulo": "Valorant",
+      "link": "https://playvalorant.com/pt-br/",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Um jogo de tiro tático 5x5 com personagens originais",
+        "url": "https://playvalorant.com/pt-br/"
+      },
+      "videos": [
+        {
+          "titulo": "Tecnosh | Dando Aula nas Ranqueadas do Valorant",
+          "url": "https://www.youtube.com/watch?v=QRzhTuPIoZc"
+        },
+        {
+          "titulo": "Best moments and Funny Fails",
+          "url": "https://www.youtube.com/watch?v=m32UCfM-_k0"
+        },
+        {
+          "titulo": "Leon jogando Valorant pela primeira vez",
+          "url": "https://www.youtube.com/watch?v=Co9s-mvAmGM"
+        },
+        {
+          "titulo": "Dubladores de Valorant jogando o jogo!",
+          "url": "https://www.youtube.com/watch?v=suE3TvaLSlM"
+        },
+        {
+          "titulo": "5 ERROS que você comete no Valorant",
+          "url": "https://www.youtube.com/watch?v=yqir2FgBCDQ"
+        }
+      ]
+    },
+    {
+      "titulo": "PUBG",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "O pai dos Battle Royale",
+        "url": "https://www.pubg.com/pt-br/"
+      },
+      "videos": [
+        {
+          "titulo": "Netenho | Chamei uma menina para jogar",
+          "url": "https://www.youtube.com/watch?v=FEOWTbIFz0w"
+        },
+        {
+          "titulo": "Não Tem Pause | Caminhão Surpresa! | Melhores Momentos PUBG",
+          "url": "https://www.youtube.com/watch?v=HdS37DogYd0"
+        },
+        {
+          "titulo": "Squad das girls na ranked",
+          "url": "https://www.youtube.com/watch?v=L1uVh5z4mVQ"
+        },
+        {
+          "titulo": "Tá na lista | Tem que respeitar",
+          "url": "https://www.youtube.com/watch?v=rTD4GT81WMo"
+        }
+      ]
+    },
+    {
+      "titulo": "Call of Duty: Warzone",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Battle Royale free to play que não vai rodar no seu PC",
+        "url": "https://www.callofduty.com/br/pt/warzone"
+      },
+      "videos": [
+        {
+          "titulo": "Nerdplayer | Call of Duty: Warzone - Money Royale",
+          "url": "https://www.youtube.com/watch?v=0ztGdK4Aqsg"
+        },
+        {
+          "titulo": "Tecnosh | Ele ficou impressionado com minha jogada",
+          "url": "https://www.youtube.com/watch?v=G-Di_CuNmLc"
+        },
+        {
+          "titulo": "Voltamos jogando o fino",
+          "url": "https://www.youtube.com/watch?v=3QWt-4APwQc"
+        },
+        {
+          "titulo": "Top 50 clips os all time",
+          "url": "https://www.youtube.com/watch?v=NW6Xmj_D77o"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
