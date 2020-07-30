@@ -7,7 +7,7 @@ function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '#F54454',
+    cor: '',
   };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
@@ -16,7 +16,7 @@ function CadastroCategoria() {
     setValues({
       ...values,
       [chave]: valor,
-    });
+    })
   }
 
   function handleChange(infosDoEvento) {
@@ -28,7 +28,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias';
+      const URL = window.location.hostname.includes('localhost') ? 'http://localhost:8080/categorias' : 'https://gameplaysflix.herokuapp.com/categorias';
       fetch(URL)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
@@ -44,9 +44,7 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
-        {values.nome}
-      </h1>
+        Cadastro de Categoria: {values.nome}</h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
@@ -57,8 +55,7 @@ function CadastroCategoria() {
         ]);
 
         setValues(valoresIniciais);
-      }}
-      >
+      }}>
 
         <FormField
           label="Nome da Categoria"
@@ -69,7 +66,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição"
           type="????"
           name="descricao"
           value={values.descricao}
@@ -89,19 +86,27 @@ function CadastroCategoria() {
         </button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
-            {categoria.titulo}
-          </li>
-        ))}
+        {categorias.map((categoria) => {
+          return (
+            <li key={`${categoria.nome}`}>
+              {categoria.nome}
+            </li>
+          )
+        })}
       </ul>
 
       <Link to="/">
         Ir para home
       </Link>
     </PageDefault>
-  );
+  )
 }
 
 export default CadastroCategoria;
