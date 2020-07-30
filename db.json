@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Valorant",
+            "descricao": "Um jogo de tiro tático 5x5 com personagens originais",
+            "cor": "#F54655"
+        },
+        {
+            "id": 2,
+            "nome": "PUBG",
+            "descricao": "O pai dos Battle Royale",
+            "cor": "#00C86F"
+        }
+    ]
+}
